@@ -2,5 +2,9 @@
   {
     "repository": "kernel_google_floral",
     "target_path": "kernel/google/floral"
+  },
+  {
+    "repository": "packages_apps_ElmyraService",
+    "target_path": "packages/apps/ElmyraService"
   }
 ]
