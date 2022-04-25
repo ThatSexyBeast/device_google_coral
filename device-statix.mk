@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-crooked
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-statix
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

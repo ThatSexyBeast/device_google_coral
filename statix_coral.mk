@@ -5,17 +5,17 @@
 #
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/crooked/config/common.mk)
+$(call inherit-product, vendor/statix/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/coral/aosp_coral.mk)
 
-include device/google/coral/coral/device-crooked.mk
+include device/google/coral/coral/device-statix.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4 XL
-PRODUCT_NAME := crooked_coral
+PRODUCT_NAME := statix_coral
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2960

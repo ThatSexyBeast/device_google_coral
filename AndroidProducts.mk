@@ -25,11 +25,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_flame.mk \
     $(LOCAL_DIR)/aosp_coral_hwasan.mk \
     $(LOCAL_DIR)/aosp_flame_hwasan.mk \
-    $(LOCAL_DIR)/crooked_coral.mk \
-    $(LOCAL_DIR)/crooked_flame.mk
+    $(LOCAL_DIR)/statix_coral.mk \
+    $(LOCAL_DIR)/statix_flame.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_coral-userdebug \
     aosp_flame-userdebug \
-    crooked_coral-userdebug \
-    crooked_flame-userdebug
+    statix_coral-userdebug \
+    statix_flame-userdebug
